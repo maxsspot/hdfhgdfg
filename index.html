@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- Put the name of your company in the <title> tag -->
+    <title>Company Name</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat", sans-serif;
+            color: white;
+            transition: all 0.1s;
+        }
+
+        body {
+            background-color: black;
+            text-align: center;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        nav {
+            background-color: black;
+            width: 100%;
+            height: 70px;
+            position: fixed;
+        }
+
+        #title {
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        #contact {
+            width: 150px;
+            height: 50px;
+            border-radius: 25px;
+            background-color: transparent;
+            border: white solid 1px;
+        }
+
+        #contact:hover {
+            text-decoration: underline;
+        }
+
+        #contact:active {
+            border: white solid 2px;
+        }
+
+        #section1,
+        #section2,
+        #section3 {
+            background-color: black;
+            border-bottom: white solid 1px;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 15px;
+            user-select: none;
+            -ms-user-select: none;
+            -moz-user-select: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(88, 88, 255);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            width: 100px;
+            background-color: white;
+            border-radius: 50px;
+            margin: auto;
+        }
+    </style>
+
+    <nav>
+        <!-- Put the name of your company here -->
+        <h1 id="title">Company name</h1>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="section1">
+        <br>
+        <br>
+        <!-- Put the name of your company here -->
+        <h1>Company name</h1><br>
+        <!-- Put the slogan of your company here -->
+        <p>Slogan</p><br>
+        <!-- Put the email of your company after the 'mailto:' in the line under this one -->
+        <button id="contact" onclick="window.location.href='mailto:'">Contact</button>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <div id="section2">
+        <br>
+        <br>
+        <h1>GAMES</h1>
+        <br>
+
+        <h2>Game name #1</h2><br>
+        <!-- Put the source url of your first game's logo after the 'src' in the line under this one -->
+        <img
+            src="https://www.dropbox.com/scl/fi/fjhyvf6e3ijgljwrx7d32/th-2278873922.png?rlkey=wf3fa21kwd82fqvb9kwlis74w&raw=1" /><br><br>
+        <!-- Put the source url of your first game's steam page after the 'href' in the line under this one. Add more links as needed -->
+        <a href="https://store.steampowered.com/" target="_blank">Download on Steam</a><br><br>
+        <hr>
+
+        <br>
+        <!-- Put the name of your second game here -->
+        <h2>Game name #2</h2><br>
+        <!-- Put the source url of your second game's logo after the 'src' in the line under this one -->
+        <img
+            src="https://www.dropbox.com/scl/fi/fjhyvf6e3ijgljwrx7d32/th-2278873922.png?rlkey=wf3fa21kwd82fqvb9kwlis74w&raw=1" /><br><br>
+        <!-- Put the source url of your second game's steam page after the 'href' in the line under this one. Add more links as needed -->
+        <a href="https://store.steampowered.com/" target="_blank">Download on Steam</a><br><br>
+        <hr>
+
+        <br>
+        <!-- Put the name of your third game here -->
+        <h2>Game name #3</h2><br>
+        <!-- Put the source url of your third game's logo after the 'src' in the line under this one -->
+        <img
+            src="https://www.dropbox.com/scl/fi/fjhyvf6e3ijgljwrx7d32/th-2278873922.png?rlkey=wf3fa21kwd82fqvb9kwlis74w&raw=1" /><br><br>
+        <!-- Put the source url of your third game's steam page after the 'href' in the line under this one. Add more links as needed -->
+        <a href="https://store.steampowered.com/" target="_blank">Download on Steam</a><br><br><br>
+    </div>
+
+    <div id="section3">
+        <!-- ADD OTHER PROFILES AS NEEDED! -->
+        <br><br>
+        <h1>Social Media</h1><br>
+        <!-- Put the source url of your X profile after the 'href' in the line under this one -->
+        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <!-- Put the source url of your YouTube profile after the 'href' in the line under this one -->
+        <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <!-- Put the source url of your Instagram profile after the 'href' in the line under this one -->
+        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <br><br><br>
+    </div>
+
+    <br><br>
+    <!-- Put the current year where it says 2023 and your company name where it says Company Name -->
+    <p>© 2023 Company Name, All Rights Reserved</p><br><br>
+</body>
+
+</html>
